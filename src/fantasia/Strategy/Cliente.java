@@ -3,14 +3,14 @@ package fantasia.Strategy;
 
 
 public class Cliente {
-    private ModoDePagamento modoDePagemanto;
+    private ModoDePagamento modoDePagamento;
     
     public void pagar(){
-        modoDePagemanto.pagar();
+        modoDePagamento.pagar();
         
         }
     
     public void setModoDePagamento(ModoDePagamento modoNovo){
-        this.modoDePagemanto = modoNovo;
+        this.modoDePagamento = modoNovo;
     }
 }
